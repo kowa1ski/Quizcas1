@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="16dp"
+            android:text="1 . How many squares have a chess board?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q1_64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingLeft="8dp"
+                android:text="64"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/q1_60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:text="60"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/q1_45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:text="45"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="16dp"
+            android:text="2 . Which of these is a chess opening?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q2_d4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingLeft="8dp"
+                android:text="d4"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/q2_h9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:text="h9"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/q2_a9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:text="a9"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="16dp"
+            android:text="3 . Which of these people are famous chess players?"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/q3_Dostoyevski"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="Fiódor Dostoyevski"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/q3_Morphy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="Paul Morphy"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/q3_Botvinnik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="Mikhail Botvinnik"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="16dp"
+            android:text="4 . What figures can not play by white squares?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q4_rocks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingLeft="8dp"
+                android:text="black rocks"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/q4_pawns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:text="some pawns"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/q4_bishops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:text="some bishops"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="16dp"
+            android:text="5 . Who is this player?. Karpov or Kasparov?"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <ImageView
+                android:id="@+id/Karpov_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/karpov" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/name_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="player name(Karpov or Kasparov)"
+            android:inputType="text" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="submitQuiz"
+            android:text="Submit Quiz"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right Answers"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="resetScore"
+            android:text="Reset Score"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
+
