@@ -24,7 +24,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+//esta línea sirve como cambio de control
+    /* pPROBANDO GITHUB
+    ESTAMOS PROBANDO GITHUB A través de este cambio
+    en MainActivity.java
+     */
 
     /**
      * This method is called when submit button is clicked.
